@@ -11,7 +11,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    position: fixed;
+    background: rgba(8, 9, 14, 0.973);
+    z-index: 1;
 }
 
 .header ul{
@@ -22,8 +24,26 @@
     margin-bottom: 0;
 }
 
+.logo{
+    width: 30%;
+    height: 100%;
+   
+}
+
+.riot-logo{
+    background-image: url(riot-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4rem;
+    width: 20%;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
 .me-6{
-    margin-right: 5rem;
+    margin-right: 10rem;
 }
 
 .ms-6{
@@ -47,11 +67,9 @@
     width: 470px;
 }
 
+
 a{
     text-decoration: none;
     color: white;
 }
 
-a:hover{
-    background: tomato !important;
-}

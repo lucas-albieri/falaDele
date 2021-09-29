@@ -1,18 +1,18 @@
 /* eslint-disable react/style-prop-object */
 import './Bloco2.css'
-import Card from './Card';
-import Zed1 from './Zed1.jpg'
-import Akali from './akali.jpg'
-import Diana from './Diana.jpg'
-import Heimerdinger from './Heimerdinger.jpg'
-import Yone from './Yone.jpg'
-import Jinx from './Jinx.jpg'
-import Ornn from './Ornn.jpg'
-import Lillia from './Lillia.jpg'
+import Card from './Card'
+import Zed1 from './imgs/Zed1.jpg'
+import Akali from './imgs/akali.jpg'
+import Diana from './imgs/Diana.jpg'
+import Heimerdinger from './imgs/Heimerdinger.jpg'
+import Yone from './imgs/Yone.jpg'
+import Jinx from './imgs/Jinx.jpg'
+import Ornn from './imgs/Ornn.jpg'
+import Lillia from './imgs/Lillia.jpg'
 
 const Bloco2 = () => {
     return ( 
-        <main>  
+        <div className="main">  
             
             <div className="card-top"><span>ESCOLHA SEU</span>
             <h1>CAMPEÃO</h1></div>
@@ -30,7 +30,7 @@ const Bloco2 = () => {
             </div>
 
             
-        </main>
+        </div>
      );
 }
  

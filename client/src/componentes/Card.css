@@ -6,7 +6,7 @@
     height: 25rem;
     margin-top: 1%;
     margin: 15px 15px;
-    
+   
 }
 
 .card-img{
@@ -15,6 +15,7 @@
     background: #171718;
     border-bottom-right-radius:calc(0rem);
     border-bottom-left-radius:calc(0rem);
+  
 }
 
 .card-img img{
