@@ -1,0 +1,73 @@
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+.zed-pai{
+    width: 100vw;
+    height: 100rem;
+    background: hsla(212, 100%, 4%, 0.993);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zed-wpp{
+    width: 100%;
+    height: 40rem;
+    margin-top: 5.7%;
+}
+.zed-wpp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.zed-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zed-info h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'BeaufortforLOL-Bold', sans-serif;
+    margin-top: 2%;
+}
+
+.zed-info h1{
+    color: white;
+    font-size: 6.5rem;
+    text-align: center;
+    font-family: 'BeaufortforLOL-Bold', sans-serif;
+}
+
+.quadrado{
+    width: 70rem;
+    height: 25rem;
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.zed-func{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zed-func img{
+    width: 25%;
+}
+
+.zed-func h3{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.zed-func p{
+    color: #cccc2d;
+    font-size: 1.3rem;
+}
