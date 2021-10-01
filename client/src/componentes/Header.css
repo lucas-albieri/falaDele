@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h5{
+    margin-bottom: 0;
+}
+
 .header{
     width: 100vw;
     height: 12vh;
@@ -35,7 +39,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     height: 4rem;
-    width: 20%;
     object-fit: cover;
     margin-top: 5%;
     margin-left: 20%;
