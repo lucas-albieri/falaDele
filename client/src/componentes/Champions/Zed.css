@@ -6,7 +6,7 @@ main{
     overflow-x: hidden;
 }
 
-.zed-pai{
+.champions-pai{
     width: 100vw;
     background: hsla(212, 100%, 4%, 0.993);
     display: flex;
@@ -15,17 +15,16 @@ main{
     overflow-x: hidden;
 }
 
-.zed-wpp{
+.champions-wpp{
     width: 100%;
     height: 40rem;
     margin-top: 5.7%;
    
 }
-.zed-wpp img{
+.champions-wpp img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 .zed-info{

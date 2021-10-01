@@ -36,14 +36,19 @@ const Zed = () => {
              />
             :
          
-        <div className="zed-pai">
+        <div className="champions-pai">
            <Header />
-        <div className="zed-wpp">
+        <div className="champions-wpp">
             <img src={zedwpp} alt="" />
-           
         </div>
             
-            <ChampionFunc />
+            <ChampionFunc
+                t1="O mestre das sombras" 
+                t2="ZED"
+                funcao="ASSASINO"
+                dificuldade="Moderado"
+                historia="Absolutamente impiedoso e implacável, Zed é o líder da Ordem das Sombras; uma organização criada com a intenção de militarizar as tradições marciais e mágicas de Ionia para expulsar os invasores noxianos. Durante a guerra, o desespero o levou a libertar..."
+            />
 
         <div className="zed-skins">
             <Skins listData={[
