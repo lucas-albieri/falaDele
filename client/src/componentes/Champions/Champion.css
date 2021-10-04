@@ -27,13 +27,13 @@ main{
     object-fit: cover;
 }
 
-.zed-info{
+.champion-info{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.zed-info h2{
+.champion-info h2{
     color: white;
     font-size: 2rem;
     text-align: center;
@@ -41,7 +41,7 @@ main{
     margin-top: 2%;
 }
 
-.zed-info h1{
+.champion-info h1{
     color: white;
     font-size: 6.5rem;
     text-align: center;
@@ -57,7 +57,7 @@ main{
     align-items: center;
 }
 
-.zed-func{
+.champion-func{
     width: 50%;
     height: 100%;
     display: flex;
@@ -65,28 +65,29 @@ main{
     align-items: center;
 }
 
-.zed-func h3{
+.champion-func h3{
     color: white;
     font-size: 1.3rem;
 }
 
-.zed-func p{
+.champion-func p{
     color: #cccc2d;
     font-size: 1.3rem;
 }
 
-.zed-func-2{
+.champion-func-2{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
 }
 
-.zed-func-2 img{
-    width: 28%;
+.champion-func-2 img{
+    width: 50%;
 }
 
-.zed-historia{
+
+.champion-historia{
     width: 50%;
     border-left: 1px solid white;
     height: 100%;
@@ -96,14 +97,14 @@ main{
     font-family: 'Raleway';
 }
 
-.zed-historia p{
+.champion-historia p{
     width: 100%;
     color: white;
     font-size: 1.1rem;
     font-weight: 400;
 }
 
-.zed-skins{
-   width: 100%;
-   margin-top: 10%;
+.champion-skins{
+   width: 80%;
+   margin-top: 5%;
 }

@@ -10,22 +10,24 @@ import Jinx from './imgs/Jinx.jpg'
 import Ornn from './imgs/Ornn.jpg'
 import Lillia from './imgs/Lillia.jpg'
 
+import {Link} from 'react-router-dom'
+
 const Bloco2 = () => {
     return ( 
         <div className="main">  
             
-            <div className="card-top"><span>ESCOLHA SEU</span>
+            <div className="card-top" id="campeoes"><span>ESCOLHA SEU</span>
             <h1>CAMPEÃO</h1></div>
             <div className="card">
 
-                <Card title="Zed" src={Zed1} style='img-rigth' />
-                <Card title="Akali" src={Akali} />
-                <Card title="Diana" src={Diana} style='img-rigth' />
-                <Card title="Heimerdinger" src={Heimerdinger} style='img-rigth' />
-                <Card title="Yone" src={Yone}  />
-                <Card title="Jinx" src={Jinx} style='img-rigth' />
-                <Card title="Ornn" src={Ornn} />
-                <Card title="Lillia" src={Lillia} />
+                <Link to='/zed'> <Card title="Zed" src={Zed1} style='img-rigth' /> </Link>
+                <Link to='/akali'> <Card title="Akali" src={Akali} /></Link>
+                <Link to='/diana'> <Card title="Diana" src={Diana} style='img-rigth' /> </Link>
+                <Link to='/heimerdinger'> <Card title="Heimerdinger" src={Heimerdinger} style='img-rigth' /> </Link>
+                <Link to='/yone'> <Card title="Yone" src={Yone}  /> </Link>
+                <Link to='/jinx'> <Card title="Jinx" src={Jinx} style='img-rigth' /> </Link>
+                <Link to='/ornn'> <Card title="Ornn" src={Ornn} /> </Link>
+                <Link to='/lillia'> <Card title="Lillia" src={Lillia} /> </Link>
 
             </div>
 

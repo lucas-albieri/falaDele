@@ -1,5 +1,6 @@
 import './Header.css'
 import {Link} from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
 
 const Header = () => {
@@ -13,10 +14,10 @@ const Header = () => {
             
             <div className="logo"><div className="riot-logo"></div></div>
             <li>
-                <h5>Início</h5>
+            <Link to='/home'> <h5>Inicio</h5> </Link>
             </li>
             <li>
-                <h5>Campeões</h5>
+               <HashLink to="/home/#campeoes"> <h5>Campeões</h5> </HashLink>
             </li>
             <li>
                 <h5>Ajuda</h5>

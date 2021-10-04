@@ -9,8 +9,7 @@
     height: 42rem;
     object-fit: cover;
     object-position: top;
-    position: relative;
-    top: 72px;
+    margin-top: 5%;
 }
 
 .skin-lado{
@@ -21,7 +20,7 @@
     flex-direction: column;
     z-index: 2;
     position: relative;
-    top: -600px;
+    top: -672px;
 }
 
 .skin-lado h1{
@@ -45,17 +44,18 @@
     display: flex;
     flex-direction: row;
     padding: 1px 30px;
-    margin-top: 5%;
+    margin-top: 2%;
     align-items: center;
     margin-left: 4%;
 }
+
 
 .skin-mini img{
     object-fit: cover;
     width: 150px;
     height: 80px;
     cursor: pointer;
-    filter: grayscale(60%);
+    filter: grayscale(30%);
     transition: .1s ease-in;
     position: inherit;
     object-position: top;
@@ -63,9 +63,11 @@
 
 .skin-mini h2{
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 600;
     margin-left: 3%;
     cursor: pointer;
+    margin-top: 6%;
 }
 
 .skin-mini img:hover{

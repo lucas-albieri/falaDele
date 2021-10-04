@@ -1,6 +1,7 @@
 import './Card.css'
 
 
+
 const Card = (props) => {
     return (  
         <div className="card-content">
@@ -8,7 +9,7 @@ const Card = (props) => {
                 <img src={props.src} alt="" />
             </div>
             <div className="card-name">
-               <h2> {props.title} </h2>
+             <h2> {props.title} </h2>
             </div>
         </div>
     );
