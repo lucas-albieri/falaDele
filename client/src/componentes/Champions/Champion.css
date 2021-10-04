@@ -35,9 +35,10 @@ main{
 
 .champion-info h2{
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
     text-align: center;
-    font-family: 'BeaufortforLOL-Bold', sans-serif;
+    font-family: unset;
     margin-top: 2%;
 }
 
@@ -71,7 +72,7 @@ main{
 }
 
 .champion-func p{
-    color: #cccc2d;
+    color: #caca1b;
     font-size: 1.3rem;
 }
 

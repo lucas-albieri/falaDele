@@ -33,7 +33,7 @@
 .card-name{
     width: 100%;
     height: 15%;
-    background: #061D27;
+    background: #110d18;
     transition: 0.5s;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@
 }
 
 .card-name:hover{
-    background: #092f3f;
+    background: #2e093f;
     cursor: pointer;
 }
 

@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 
 
+
 const Header = () => {
     return ( 
 
@@ -28,7 +29,7 @@ const Header = () => {
                  
         </ul>
                     
-            <input class="form-control mr-2" type="search" placeholder="Browse your champion" aria-label="Search" />
+            <input class="form-control mr-2" type="search" placeholder="Browse your champion" aria-label="Search" id="pesquisa"  />
             <button class="btn btn-outline-light me-6 ms-4" type="submit">Search</button>
               
      </nav>
