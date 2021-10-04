@@ -7,6 +7,7 @@ import Home from './componentes/Home';
 import Zed from './componentes/Champions/Zed';
 import Akali from './componentes/Champions/Akali';
 import Diana from './componentes/Champions/Diana';
+import Heimerdinger from './componentes/Champions/Heimerdinger';
 
 import ('./App.css')
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/zed' component={Zed} />
           <Route path='/akali' component={Akali} />
           <Route path='/diana' component={Diana} />
+          <Route path='/heimerdinger' component={Heimerdinger} />
         </Switch>
       </main>
 
