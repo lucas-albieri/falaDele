@@ -52,7 +52,16 @@ const Heimerdinger = () => {
                 func={mago}
                 dif={dif}
                 dificuldade="ALTA"
-                historia="Um cientista brilhante, mesmo que excêntrico, o Professor Cecil B. Heimerdinger é um dos inventores mais inovadores e estimados que Piltover já conheceu. Incansável em seu trabalho ao ponto da obsessão neurótica, ele busca responder as questões mais..."
+                historia="Um cientista brilhante, mesmo que excêntrico, o Professor Cecil B. Heimerdinger
+                 é um dos inventores mais inovadores e estimados que Piltover já conheceu. Incansável em seu 
+                 trabalho ao ponto da obsessão neurótica, ele busca responder as questões mais..."
+    
+                 historiaCompleta="Um cientista brilhante, mesmo que excêntrico, o Professor Cecil B. 
+                 Heimerdinger é um dos inventores mais inovadores e estimados que Piltover já conheceu. 
+                 Incansável em seu trabalho ao ponto da obsessão neurótica, ele busca responder as questões 
+                 mais impenetráveis do universo. Apesar de suas teorias frequentemente parecerem obscuras e 
+                 esotéricas, Heimerdinger produziu algumas das máquinas mais miraculosas, sem mencionar letais,
+                 de Piltover e ajusta constantemente suas invenções para torná-las ainda mais eficientes."
             />
 
         <div className="champion-skins">

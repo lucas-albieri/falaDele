@@ -3,6 +3,7 @@ import Header from './Header';
 import './Home.css'
 import HashLoader from "react-spinners/HashLoader";
 import Bloco2 from './bloco2';
+import VideoHome from './VideoHome';
 
 const Home = () => {
     const  [loading, setLoading] = useState(false)
@@ -33,6 +34,9 @@ const Home = () => {
                 </div>
                 <div className="bloco2">
                     <Bloco2 />
+                </div>
+                <div className="bloco3">
+                    <VideoHome />
                 </div>
             </div>
 

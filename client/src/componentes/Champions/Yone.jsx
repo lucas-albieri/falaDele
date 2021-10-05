@@ -50,7 +50,14 @@ const Yone = () => {
                 func={ass}
                 dif={dif}
                 dificuldade="ALTA"
-                historia="Em vida, ele foi Yone; meio-irmão de Yasuo e um respeitado aluno da escola de espadachins de seu vilarejo. Mas, ao morrer pelas mãos do irmão, ele se viu perseguido por uma entidade maligna do reino espiritual e foi forçado a exterminá-la com sua própria espada. Agora, condenado a usar uma máscara demoníaca com o rosto da entidade, Yone busca incansavelmente essas criaturas para tentar entender o que ele mesmo se tornou."
+                historia="Em vida, ele foi Yone; meio-irmão de Yasuo e um respeitado aluno da escola de 
+                espadachins de seu vilarejo. Mas, ao morrer pelas mãos do irmão, ele se viu perseguido por 
+                uma entidade maligna do reino espiritual e foi forçado a exterminá-la com sua própria espada... "
+                historiaCompleta="Em vida, ele foi Yone; meio-irmão de Yasuo e um respeitado aluno da escola 
+                de espadachins de seu vilarejo. Mas, ao morrer pelas mãos do irmão, ele se viu perseguido por 
+                uma entidade maligna do reino espiritual e foi forçado a exterminá-la com sua própria espada. 
+                Agora, condenado a usar uma máscara demoníaca com o rosto da entidade, Yone busca 
+                incansavelmente essas criaturas para tentar entender o que ele mesmo se tornou. "
             />
 
         <div className="champion-skins">
