@@ -1,5 +1,5 @@
 import './Champion.css'
-import yonewpp from './yone-wpp.png'
+import yonewpp from './yone-skin/yone-wpp.png'
 import Header from '../Header';
 import Skins from '../Skins';
 import ChampionFunc from '../ChampionFunc';
@@ -49,7 +49,7 @@ const Yone = () => {
                 funcao="ASSASSINO"
                 func={ass}
                 dif={dif}
-                dificuldade="MODERADO"
+                dificuldade="ALTA"
                 historia="Em vida, ele foi Yone; meio-irmão de Yasuo e um respeitado aluno da escola de espadachins de seu vilarejo. Mas, ao morrer pelas mãos do irmão, ele se viu perseguido por uma entidade maligna do reino espiritual e foi forçado a exterminá-la com sua própria espada. Agora, condenado a usar uma máscara demoníaca com o rosto da entidade, Yone busca incansavelmente essas criaturas para tentar entender o que ele mesmo se tornou."
             />
 

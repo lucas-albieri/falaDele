@@ -1,5 +1,5 @@
 
-import {Link} from 'react-router-dom'
+import {Link,useHistory} from 'react-router-dom'
 import {Formik, Form, Field, ErrorMessage} from 'formik'
 import * as yup from 'yup'
 import Axios from "axios"
@@ -9,12 +9,17 @@ import './Register.css'
 
 const Register = () => {
 
+    const history = useHistory()
     const handleClickCadastro = (values) => {
         Axios.post("http://localhost:8000/register",{
             user: values.user,
             senha: values.senha,
         }).then((response) =>{
             console.log(response)
+            if(response.status === 200){
+                history.push('/home')
+                alert("Conta criada com sucesso!!")
+            }
         })
     }
 

@@ -1,11 +1,11 @@
 import './Champion.css'
-import ornnwpp from './ornn-wpp.png'
+import ornnwpp from './ornn-skin/ornn-wpp.png'
 import Header from '../Header';
 import Skins from '../Skins';
 import ChampionFunc from '../ChampionFunc';
 
-import dif from './diff3.png'
-import adc from './adc.png'
+import dif from './dif2.png'
+import tank from './tank.png'
 
 import HashLoader from "react-spinners/HashLoader";
 import { useState,useEffect } from 'react';
@@ -48,7 +48,7 @@ const Ornn = () => {
                 t1="O FOGO SOB A MONTANHA" 
                 t2="ORNN"
                 funcao="TANQUE"
-                func={adc}
+                func={tank}
                 dif={dif}
                 dificuldade="MODERADO"
                 historia="Ornn é o espírito Freljordano da forja e da artesania. Ele trabalha na solidão de uma enorme fornalha, construída a marteladas por entre as cavernas de lava do vulcão Pedra-Lar. Lá, ele aquece caldeirões de pedra fundida para purificar metais e forjar itens de qualidade insuperável. "

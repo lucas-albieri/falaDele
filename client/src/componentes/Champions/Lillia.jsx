@@ -1,11 +1,11 @@
 import './Champion.css'
-import lilliawpp from './lillia-wpp.png'
+import lilliawpp from './lillia-skin/lillia-wpp.png'
 import Header from '../Header';
 import Skins from '../Skins';
 import ChampionFunc from '../ChampionFunc';
 
 import dif from './diff3.png'
-import adc from './adc.png'
+import fighter from './axes.png'
 
 import HashLoader from "react-spinners/HashLoader";
 import { useState,useEffect } from 'react';
@@ -48,7 +48,7 @@ const Lillia = () => {
                 t1="O FLORIR RECEOSO" 
                 t2="LILLIA"
                 funcao="LUTADOR"
-                func={adc}
+                func={fighter}
                 dif={dif}
                 dificuldade="ALTA"
                 historia="Extremamente tímida, Lillia, a faunesa feérica, percorre saltitante as florestas de Ionia. Sempre escondida a pouca distância dos humanos — cuja misteriosa natureza lhe causa fascínio e, ao mesmo tempo, receio — Lillia espera descobrir por que os sonhos... "

@@ -1,5 +1,5 @@
 import './Champion.css'
-import akaliwpp from './akali-wpp.png'
+import akaliwpp from './akali-skin/akali-wpp.png'
 import Header from '../Header';
 import Skins from '../Skins';
 import ChampionFunc from '../ChampionFunc';

@@ -71,12 +71,12 @@ main{
 
 .champion-func h3{
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .champion-func p{
-    color: #caca1b;
-    font-size: 1.1rem;
+    color: #b6d2f1;
+    font-size: 0.9rem;
 }
 
 .champion-func-2{
@@ -87,7 +87,7 @@ main{
 }
 
 .champion-func-2 img{
-    width: 50%;
+    width: 30%;
 }
 
 

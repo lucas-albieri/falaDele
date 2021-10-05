@@ -1,5 +1,5 @@
 import './Champion.css'
-import zedwpp from './zed-wpp.png'
+import zedwpp from './Zed-skin/zed-wpp.png'
 import Header from '../Header';
 import Skins from '../Skins';
 import ChampionFunc from '../ChampionFunc';

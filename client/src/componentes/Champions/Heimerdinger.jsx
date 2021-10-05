@@ -1,5 +1,5 @@
 import './Champion.css'
-import heimerwpp from './heimer-wpp.png'
+import heimerwpp from './heimerdinger-skin/heimer-wpp.png'
 import Header from '../Header';
 import Skins from '../Skins';
 import ChampionFunc from '../ChampionFunc';

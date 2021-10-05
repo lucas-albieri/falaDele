@@ -1,10 +1,10 @@
 import './Champion.css'
-import jinxwpp from './jinx-wpp.png'
+import jinxwpp from './jinx-skin/jinx-wpp.png'
 import Header from '../Header';
 import Skins from '../Skins';
 import ChampionFunc from '../ChampionFunc';
 
-import dif from './diff3.png'
+import dif from './dif2.png'
 import adc from './adc.png'
 
 import HashLoader from "react-spinners/HashLoader";

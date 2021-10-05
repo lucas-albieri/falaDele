@@ -1,5 +1,5 @@
 import './Champion.css'
-import dianawpp from './diana-wpp.png'
+import dianawpp from './diana-skin/diana-wpp.png'
 import Header from '../Header';
 import Skins from '../Skins';
 import ChampionFunc from '../ChampionFunc';
