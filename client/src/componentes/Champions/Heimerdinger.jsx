@@ -4,8 +4,8 @@ import Header from '../Header';
 import Skins from '../Skins';
 import ChampionFunc from '../ChampionFunc';
 
-import dif from './dif2.png'
-import axes from './axes.png'
+import dif from './diff3.png'
+import mago from './mago.png'
 
 import HashLoader from "react-spinners/HashLoader";
 import { useState,useEffect } from 'react';
@@ -49,7 +49,7 @@ const Heimerdinger = () => {
                 t1="O INVENTOR IDOLATRADO" 
                 t2="HEIMERDINGER"
                 funcao="MAGO"
-                func={axes}
+                func={mago}
                 dif={dif}
                 dificuldade="ALTA"
                 historia="Um cientista brilhante, mesmo que excêntrico, o Professor Cecil B. Heimerdinger é um dos inventores mais inovadores e estimados que Piltover já conheceu. Incansável em seu trabalho ao ponto da obsessão neurótica, ele busca responder as questões mais..."

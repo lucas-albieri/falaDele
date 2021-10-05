@@ -31,6 +31,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: default;
+    font-family: 'BeaufortforLOL-Bold';
 }
 
 .champion-info h2{
@@ -56,6 +58,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: default;
 }
 
 .champion-func{
@@ -73,7 +76,7 @@ main{
 
 .champion-func p{
     color: #caca1b;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .champion-func-2{
