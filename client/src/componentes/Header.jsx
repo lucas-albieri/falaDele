@@ -21,7 +21,7 @@ const Header = () => {
                <HashLink to="/home/#campeoes"> <h5>Campeões</h5> </HashLink>
             </li>
             <li>
-                <h5>Ajuda</h5>
+            <Link to='/ajuda'> <h5>Ajuda</h5> </Link>
             </li>
             <li>
             <Link to='/login'> <h5>Sair</h5> </Link>

@@ -12,6 +12,7 @@ import Yone from './componentes/Champions/Yone';
 import Jinx from './componentes/Champions/Jinx';
 import Ornn from './componentes/Champions/Ornn';
 import Lillia from './componentes/Champions/Lillia';
+import Ajuda from './componentes/Ajuda';
 
 import ('./App.css')
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/login' component={Login} />
           <Route path='/register' component={Register} />
           <Route path='/home' component={Home} />
+          <Route path='/ajuda' component={Ajuda} />
           <Route path='/zed' component={Zed} />
           <Route path='/akali' component={Akali} />
           <Route path='/diana' component={Diana} />
@@ -33,6 +35,7 @@ function App() {
           <Route path='/jinx' component={Jinx} />
           <Route path='/ornn' component={Ornn} />
           <Route path='/lillia' component={Lillia} />
+          <Route path='/' component={Login} />
         </Switch>
       </main>
 
