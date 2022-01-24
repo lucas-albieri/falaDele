@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    background-image:url('../../Assets/img/bg3.jpg');
+    background-repeat:no-repeat;
+    background-position:top;
+    height: 95vh;
+    background-size: cover;
+}
+
+.video-footer{
+    margin-top: 10rem;
+    height: 41.6rem;
+}
+
+.css-yymkrn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+}
