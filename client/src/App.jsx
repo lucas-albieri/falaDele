@@ -3,7 +3,7 @@ import {Switch,Route} from 'react-router-dom'
 import Login from './login/Login';
 import Register from './Register/Register';
 import Home from './Pages/Home';
-
+import './styles/GlobalStyles.css'
 
 import ('./App.css')
 

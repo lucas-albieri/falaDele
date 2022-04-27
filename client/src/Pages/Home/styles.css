@@ -1,3 +1,5 @@
+@font-face {font-family: "BeaufortforLOL-Bold"; src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot"); src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
+
 *{
     margin: 0;
     padding: 0;
@@ -5,22 +7,62 @@
 }
 
 .home{
-    background-image:url('../../Assets/img/bg3.jpg');
+    background-image:url('../../Assets/img/bg7.jpg');
     background-repeat:no-repeat;
-    background-position:top;
+    background-position:center;
     height: 95vh;
     background-size: cover;
+    display: flex;
+    align-items: flex-start;
 }
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 7%;
+    height: 100%;
+    background:#282423;
+    align-items:center;
+    justify-content: center;
+}
+.sidebar span{
+    color: rgba(255, 255, 255, 0.877);
+    margin: 35px 0px;
+    font-size:2rem;
+    cursor:pointer;
+    transition:ease 0.2s;
+}
+.sidebar span:hover{
+    color: white;
+}
+
+.champions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.champions h1{
+    font-family: "BeaufortforLOL-Bold";
+    font-size: 6.5rem;
+    margin-top: 30px;
+    color: #222;
+
+}
+.champions h2{
+    font-family: "BeaufortforLOL-Bold";
+    font-size: 2.5rem;
+    margin-top: 30px;
+    color: #222;
+}
+
+
+
 
 .video-footer{
     margin-top: 10rem;
     height: 41.6rem;
 }
 
-.css-yymkrn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto auto;
-}
+
